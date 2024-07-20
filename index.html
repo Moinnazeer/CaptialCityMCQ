@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Capital</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form id="questionsForm" class="questions-form">
+      <h1 class="question">What is the capital of India?</h1>
+      <div id="cities" class="d-flex flex-column align-items-center options">
+        <div class="mt-2 mb-2">
+          <input type="radio" value="Hyderabad" id="cityHyderabad" name="city"/>
+          <label class="ml-2 option-label" for="cityHyderabad">Hyderabad</label>
+        </div>
+        <div class="mb-2">
+          <input type="radio" value="Chennai" id="cityChennai" name="city"/>
+          <label class="ml-2 option-label" for="cityChennai">Chennai</label>
+        </div>
+        <div class="mb-2">
+          <input type="radio" value="Delhi" id="cityDelhi" name="city"/>
+          <label class="ml-2 option-label" for="cityDelhi">Delhi</label>
+        </div>
+        <div class="mb-2">
+          <input type="radio" value="Mumbai" id="cityMumbai" name="city"/>
+          <label class="ml-2 option-label" for="cityMumbai">Mumbai</label>
+        </div>
+      </div>
+      <button id="submitBtn" class="btn btn-primary mt-3">Submit</button>
+      <button id="reloadBtn" class="btn btn-secondary mt-3" style="display: none;">Reload</button>
+      <p id="resultMsg" class="mt-3"></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: #FF6F91;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.questions-form {
+    background-color: #6B465A;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative; /* Allows absolute positioning of buttons */
+}
+
+.option-label {
+    margin-left: 10px;
+    cursor: pointer; /* Changes cursor to pointer to indicate clickable */
+}
+
+.options {
+    text-align: left;
+    width: 100%;
+}
+
+.options > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+#reloadBtn {
+    display: none; /* Hidden by default, shown when needed */
+}
